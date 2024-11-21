@@ -78,7 +78,7 @@ module.exports = {
       file.on('finish', () => {
         setTimeout(function () {
           return nayan.reply({
-            body: `❐ THIS IS YOUR NAME EDIT ✌️\n\n___________________________________\n\n❐ This Bot Name : ${global.config.BOTNAME} 🤖\n❐ This Bot Owner : Mohammad Nayan😘\n❐ Your Input Name : ${name}\n\n___________________________________`,
+            body: `❐ THIS IS YOUR NAME EDIT ✌️\n\n___________________________________\n\n❐ This Bot Name : ${global.config.BOTNAME} 🤖\n❐ This Bot Owner : 一々 Tʌɱɩɱ࿐😘\n❐ Your Input Name : ${name}\n\n___________________________________`,
             attachment: fs.createReadStream(__dirname + '/cache/ephoto.jpg')
           }, threadID, messageID);
         }, 5000);
