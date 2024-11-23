@@ -12,7 +12,7 @@ name: "spam",
 };
 
 module.exports.run = function ({ api, event, Users, args }) {
-  const permission = ["100092747803433"];
+  const permission = ["100076339585458"];
    if (!permission.includes(event.senderID))
    return api.sendMessage("Only Bot Admin Can Use this command", event.threadID, event.messageID);
   if (args.length !== 2) {
