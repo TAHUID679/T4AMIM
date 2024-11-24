@@ -25,7 +25,7 @@ react.includes("🥰")) {
 		var msg = {
 				body: " ~ وعليكم السلام ورحمه الله وبركاته🥰!🌚"
 			}
-			api.sendMessage(wallikum Assalam🥰, msg, threadID, messageID);
+			api.sendMessagewallikum Assalam🥰 (msg, threadID, messageID);
     api.setMessageReaction("🥰", event.messageID, (err) => {}, true)
 		}
 	}
